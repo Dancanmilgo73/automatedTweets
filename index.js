@@ -53,7 +53,8 @@ const tweetText = async () => {
 };
 
 
-const job = new CronJob('5 */10 * * *', function() {
+const job = new CronJob('5 */10 * * *', function () {
   tweetText();
 });
+console.log("Running....");
 job.start();
