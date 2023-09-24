@@ -1,4 +1,4 @@
-// require('dotenv').config();
+require('dotenv').config();
 const openai = require('openai');
 const { TwitterApi } = require("twitter-api-v2");
 const CronJob = require('cron').CronJob;
